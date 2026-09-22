@@ -23,7 +23,7 @@ class Car(Vehicle):
         super().inspect()
         print(f"It weighs {self.weight} pounds.")
 
-    def drift(self):
+    def trick(self):
         print(f"The {self.make} {self.model} hits a sick drift.")
 
     def traffic(self):
@@ -38,7 +38,7 @@ class Motorcycle(Vehicle):
         super().inspect()
         print(f"It weighs {self.weight} pounds.")
 
-    def wheelie(self):
+    def trick(self):
         print(f"The {self.make} {self.model} pops a wheelie.")
 
     def traffic(self):
